@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yuyang Liu - Personal Homepage</title>
+    <meta
+      name="description"
+      content="Yuyang Liu is an undergraduate student in Electronic and Computer Engineering at Zhejiang University and the University of Illinois Urbana-Champaign, working on embodied AI, reinforcement learning, LLM systems, and GPU kernels."
+    >
+    <meta name="author" content="Yuyang Liu">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Yuyang Liu",
+        "email": "mailto:yuyangl9@illinois.edu",
+        "affiliation": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Zhejiang University"
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Illinois Urbana-Champaign"
+          }
+        ],
+        "knowsAbout": [
+          "Embodied AI",
+          "Reinforcement Learning",
+          "Large Language Models",
+          "GPU Kernels",
+          "Operating Systems"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top">YL</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-art" src="assets/research-visual.png" alt="Abstract illustration of embodied AI, neural networks, terrain learning, and GPU kernels.">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Undergraduate Researcher in AI Systems</p>
+          <h1 id="hero-title">Yuyang Liu</h1>
+          <p class="hero-summary">
+            I am an undergraduate student in Electronic and Computer Engineering in the Zhejiang University
+            and University of Illinois Urbana-Champaign dual degree program. My work connects embodied AI,
+            reinforcement learning, LLM-driven systems, GPU kernels, and low-level computer systems.
+          </p>
+          <div class="hero-actions" aria-label="Contact links">
+            <a class="button primary" href="mailto:yuyangl9@illinois.edu">Email</a>
+            <a class="button secondary" href="#projects">Selected Projects</a>
+          </div>
+          <p class="identity-line">
+            Email: <a href="mailto:yuyangl9@illinois.edu">yuyangl9@illinois.edu</a>
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="section intro">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Building reliable AI systems from models to runtime.</h2>
+        </div>
+        <div class="intro-copy">
+          <p>
+            I am currently pursuing a B.S. degree with a 3.78/4.0 GPA, ranking 14/70 in my cohort.
+            My coursework includes artificial intelligence applications, data mining, applied machine
+            learning, machine learning programming methods, computer systems engineering, data structures
+            in C++, digital logic, signal processing, systems foundations, discrete mathematics, linear
+            algebra, and differential equations.
+          </p>
+          <p>
+            As a research intern at Zhejiang University's CAD&amp;CG Lab, I work on robust locomotion
+            training for quadruped robots under domain randomization. I am also interested in AI-assisted
+            performance engineering, model quantization workflows, fairness evaluation for language models,
+            and operating system kernels.
+          </p>
+        </div>
+      </section>
+
+      <section id="research" class="section focus-band" aria-labelledby="research-title">
+        <div class="section-heading">
+          <p class="eyebrow">Research Interests</p>
+          <h2 id="research-title">Where I am focusing now</h2>
+        </div>
+        <div class="focus-grid">
+          <article class="focus-card">
+            <span class="focus-index">01</span>
+            <h3>Embodied AI and RL</h3>
+            <p>
+              Robust locomotion policies for quadruped robots, with domain randomization over terrain,
+              friction, mass, inertia, actuator parameters, latency, disturbances, and robot morphology.
+            </p>
+          </article>
+          <article class="focus-card">
+            <span class="focus-index">02</span>
+            <h3>LLM Systems</h3>
+            <p>
+              Automated pipelines that use large language models to generate, test, and refine executable
+              GPU kernels for quantization and performance-critical tensor workloads.
+            </p>
+          </article>
+          <article class="focus-card">
+            <span class="focus-index">03</span>
+            <h3>Trustworthy AI</h3>
+            <p>
+              Evaluation workflows for language model bias and fairness, including prompt design, structured
+              dataset construction, counterfactual comparison, and multi-model experiments.
+            </p>
+          </article>
+          <article class="focus-card">
+            <span class="focus-index">04</span>
+            <h3>Computer Systems</h3>
+            <p>
+              Kernel-level implementation for RISC-V operating systems, covering device I/O, filesystems,
+              process management, scheduling, pipes, shell utilities, and user-space tooling.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Projects</p>
+          <h2 id="projects-title">Recent technical work</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Feb 2026 - Present</span>
+              <span>Project Member</span>
+            </div>
+            <h3>Domain-Randomized Quadruped Locomotion Training</h3>
+            <p>
+              Built an IsaacLab and RSL-RL based training framework for quadruped locomotion policies.
+              Designed stair-climbing tasks, terrain parameters, sensing configuration, stair-mode detection,
+              command constraints, reward terms, and failure criteria, then transferred the stair logic into
+              procedural quadruped tasks for curriculum-based training on complex terrain.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Feb 2026 - Present</span>
+              <span>Project Member</span>
+            </div>
+            <h3>LLM-Generated GPU Kernels for Quantization</h3>
+            <p>
+              Designed an automated framework that starts from PyTorch implementations, generates runnable
+              quantization kernels through API-driven LLM calls, and closes the loop with compilation,
+              testing, feedback, and performance tuning. The workflow supports KernelBench-style datasets
+              and exports both KB and SOL formats.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Dec 2023 - Dec 2024</span>
+              <span>Project Member</span>
+            </div>
+            <h3>Fairness Decision Pipeline for Large Language Models</h3>
+            <p>
+              Constructed a conversational bias and fairness evaluation workflow with custom prompts,
+              social-bias datasets, counterfactual comparison, quantitative scoring, data cleaning, and
+              structured JSON outputs. Ran comparative experiments across GPT-3.5, Gemini, Claude, and LLaMA.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Aug 2025 - Dec 2025</span>
+              <span>Project Member</span>
+            </div>
+            <h3>RISC-V Operating System Kernel Development</h3>
+            <p>
+              Implemented core kernel components inspired by Unix V6, including VIRTIO block device and
+              ramdisk I/O, unified I/O abstraction, KTFS filesystem features, program loading, virtual
+              memory, process and system calls, fork, preemptive scheduling, pipes, shell utilities, block
+              cache behavior, and robust error handling under abnormal input.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section credentials" aria-labelledby="credentials-title">
+        <div class="section-heading">
+          <p class="eyebrow">Education and Skills</p>
+          <h2 id="credentials-title">Academic background</h2>
+        </div>
+        <div class="credential-grid">
+          <article class="credential-block">
+            <h3>Education</h3>
+            <p>
+              B.S. in Electronic and Computer Engineering, Zhejiang University + University of Illinois
+              Urbana-Champaign dual degree program, 2023 - present.
+            </p>
+            <p>GPA: 3.78/4.0. Rank: 14/70.</p>
+          </article>
+          <article class="credential-block">
+            <h3>Technical Skills</h3>
+            <ul class="tag-list" aria-label="Technical skills">
+              <li>C</li>
+              <li>C++</li>
+              <li>Python</li>
+              <li>PyTorch</li>
+              <li>Docker</li>
+              <li>Reinforcement Learning</li>
+              <li>Triton</li>
+            </ul>
+          </article>
+          <article class="credential-block">
+            <h3>Recognition</h3>
+            <p>
+              Zhejiang University Third-Class Scholarship twice, Academic Excellence Model Student honor,
+              and college-level Third-Class Scholarship.
+            </p>
+          </article>
+          <article class="credential-block">
+            <h3>Languages</h3>
+            <p>Mandarin Chinese, English. TOEFL: 100.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-band" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Yuyang Liu</h2>
+          <p>
+            I am open to research conversations around embodied AI, LLM systems, efficient machine
+            learning kernels, and trustworthy AI evaluation.
+          </p>
+        </div>
+        <a class="contact-link" href="mailto:yuyangl9@illinois.edu">yuyangl9@illinois.edu</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Yuyang Liu</span>
+      <span><a href="mailto:yuyangl9@illinois.edu">yuyangl9@illinois.edu</a></span>
+    </footer>
+  </body>
+</html>
