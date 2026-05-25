@@ -1,6 +1,12 @@
-# Yuyang Liu Personal Homepage
+# Yuyang Liu
 
-Static personal homepage for Yuyang Liu.
+Email: [yuyangl9@illinois.edu](mailto:yuyangl9@illinois.edu)
+
+I am an undergraduate student in Electronic and Computer Engineering in the Zhejiang University and University of Illinois Urbana-Champaign dual degree program. My interests include embodied AI, reinforcement learning, LLM systems, GPU kernels, trustworthy AI evaluation, and computer systems.
+
+This repository contains my static personal homepage. Once GitHub Pages is enabled, the site should be available at:
+
+https://loverbylyy0.github.io/Personal/
 
 ## Files
 
